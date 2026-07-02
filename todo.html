@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>todo list</title>
+    </head>
+    <body>
+        <h1>TODO LIST</h1>
+        <ul id="todo">
+        </ul>
+        <input type="text" id="data" placeholder="enter the todo list">
+        <button id="btn">add</button>
+        
+        <ul id="complete"></ul>
+    <script>
+        let btn=document.getElementById("btn");
+        let data=document.getElementById("data");
+        let todo=document.getElementById("todo");
+        let complete=document.getElementById("complete");
+        let list = [];
+        btn.addEventListener('click',(event)=>{
+        if(data.value!=""){
+            list.push(data.value);
+            todo.innerHTML+='<li id="'+(list.length-1)+'"><button onclick="completed('+(list.length-1)+')">'+data.value+'</button></li>';
+       data.value="";
+        
+        }
+            
+        }
+
+        
+        
+       
+        
+        );
+        function completed(id){
+            complete.innerHTML+='<li>'+list[id]+'</li>';
+            document.getElementById(id).style.display="none";
+        }
+
+    </script>
+    </body>
+</html>
+
+
+
