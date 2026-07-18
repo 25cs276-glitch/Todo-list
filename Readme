@@ -1,0 +1,119 @@
+# 📝 Todo List App
+
+A simple and responsive Todo List application that helps users organize daily tasks efficiently. Users can create, update, complete, and delete tasks with an intuitive interface.
+
+## 🚀 Features
+
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
+- 🔍 Filter tasks (All, Active, Completed)
+- 💾 Persistent storage (Local Storage / Database)
+- 📱 Responsive design
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+**Optional**
+- React / Vue / Angular
+- Tailwind CSS / Bootstrap
+- Node.js & Express
+- MongoDB / Firebase
+
+## 📂 Project Structure
+
+```
+todo-list/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── README.md
+```
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo-list.git
+```
+
+2. Navigate to the project
+
+```bash
+cd todo-list
+```
+
+3. Open the project
+
+- Open `index.html` in your browser
+
+Or, if using Node.js:
+
+```bash
+npm install
+npm start
+```
+
+## 📸 Screenshot
+
+Add a screenshot of your application here.
+
+```
+assets/screenshot.png
+```
+
+## 🎯 Future Improvements
+
+- User authentication
+- Due dates and reminders
+- Categories and tags
+- Drag-and-drop task ordering
+- Dark mode
+- Cloud synchronization
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Your Name**
+
+- GitHub: https://github.com/your-username
+- LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
